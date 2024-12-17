@@ -1,5 +1,5 @@
 // Conversor de massa
-// 17/11/2024
+// 17/12/2024
 
 #include <stdio.h>
 #include <unistd.h>
