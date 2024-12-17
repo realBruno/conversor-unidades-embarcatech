@@ -95,9 +95,6 @@ int main(void)
     return 0;
 } /* FIM DA FUNÇÃO MAIN */
 
-
-
-
 // DEFINIÇÃO DAS FUNÇÕES
 double metros(double x, int y)
 {   
