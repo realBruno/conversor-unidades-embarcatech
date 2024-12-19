@@ -20,7 +20,7 @@ int main(void)
 
     double massa_original;
     char u_original;
-    printf("Insira o comprimento com a formatação especificada: ");
+    printf("Insira a massa com a formatação especificada: ");
     scanf("%lf%1c", &massa_original, &u_original);
     u_original = tolower(u_original);
 
