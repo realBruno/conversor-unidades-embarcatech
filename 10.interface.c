@@ -13,21 +13,21 @@ int main(void)
     sleep(1);
     printf("1. Unidades de comprimento (metro, centímetro, milímetro):\n");
     printf("2. Unidades de massa (quilograma, grama, tonelada): \n");
-    printf("3. Unidades de temperatura (celsius, fahrenheit, kelvin): \n");
+    printf("4. Unidades de temperatura (celsius, fahrenheit, kelvin): \n");
 
     int opcao;
-    printf("Qual opção deseja? (1/2/3): ");
+    printf("Qual opção deseja? (1/2/4): ");
     scanf("%d", &opcao);
 
     switch(opcao)
     {
         case 1:
-            system("~/Desktop/repos/tarefa-embarcatech/out/1comprimento.c");
+            system("~/Desktop/repos/tarefa-embarcatech/out/1comprimento");
             break;
         case 2:
             system("~/Desktop/repos/tarefa-embarcatech/out/2massa");
             break;
-        case 3:
+        case 4:
         system("~/Desktop/repos/tarefa-embarcatech/out/3temperatura");
             break;
         default:
