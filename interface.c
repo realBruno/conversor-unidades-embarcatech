@@ -3,7 +3,9 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
+#include "./src/comprimento.h"
+#include "./src/massa.h"
+#include "./src/temperatura.h"
 
 int main(void)
 {
@@ -19,16 +21,18 @@ int main(void)
     printf("Qual opção deseja? (1/2/4): ");
     scanf("%d", &opcao);
 
+    printf("\n");
+
     switch(opcao)
     {
         case 1:
-            system("~/Desktop/repos/tarefa-embarcatech/out/1comprimento");
+            comprimento();
             break;
         case 2:
-            system("~/Desktop/repos/tarefa-embarcatech/out/2massa");
+            massa();
             break;
         case 4:
-        system("~/Desktop/repos/tarefa-embarcatech/out/3temperatura");
+            temperatura();
             break;
         default:
             printf("Opção inválida.\n");

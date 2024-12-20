@@ -11,7 +11,7 @@ double metros(double x, int y);
 double centimetros(double x, int y);
 double milimetros(double x, int y);
 
-int main(void)
+int comprimento(void)
 {
     printf("PROGRAMA PARA CONVERTER PARA METRO, CENTÍMETRO OU MILÍMETRO\n");
     sleep(1); // delay de um segundo
@@ -93,7 +93,7 @@ int main(void)
     }
     
     return 0;
-} /* FIM DA FUNÇÃO MAIN */
+}
 
 // DEFINIÇÃO DAS FUNÇÕES
 double metros(double x, int y)

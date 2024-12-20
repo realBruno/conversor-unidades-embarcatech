@@ -11,7 +11,7 @@ double celsius(double x, char y);
 double fahrenheit(double x, char y);
 double kelvin(double x, char y);
 
-int main(void)
+int temperatura(void)
 {   
     printf("PROGRAMA PARA CONVERTER PARA CELSIUS, FAHRENHEIT OU KELVIN\n");
     sleep(1); // delay de um segundo

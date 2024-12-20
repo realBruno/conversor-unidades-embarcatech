@@ -11,7 +11,7 @@ double quilo(double x, char y);
 double grama(double x, char y);
 double ton(double x, char y);
 
-int main(void)
+int massa(void)
 {
     printf("PROGRAMA PARA CONVERTER PARA QUILO, GRAMA OU TONELADA\n");
     sleep(1); // delay de um segundo
