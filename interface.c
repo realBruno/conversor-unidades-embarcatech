@@ -8,8 +8,12 @@
 #include "./src/temperatura.h"
 
 int main(void)
-{
-    printf("PROGRAMA QUE CONVERTE DIFERENTES UNIDADES.\n");
+{   
+    #ifdef _WIN32
+    system("chcp 65001>NULL");
+    #endif
+
+    printf("PROGRAMA QUE CONVERTE DIFERENTES UNIDADES\n");
     sleep(1);
     printf("ESCOLHA UMA DAS OPÇÕES:\n");
     sleep(1);

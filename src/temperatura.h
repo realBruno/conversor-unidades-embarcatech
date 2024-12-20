@@ -13,7 +13,7 @@ double kelvin(double x, char y);
 
 int temperatura(void)
 {   
-    printf("PROGRAMA PARA CONVERTER PARA CELSIUS, FAHRENHEIT OU KELVIN\n");
+    printf("CONVERSOR DE TEMPERATURA\n");
     sleep(1); // delay de um segundo
     printf("Exemplos de entradas válidas: 30C | 70.8F | 10.2K\n");
     sleep(1);

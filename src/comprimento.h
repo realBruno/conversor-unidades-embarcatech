@@ -13,7 +13,7 @@ double milimetros(double x, int y);
 
 int comprimento(void)
 {
-    printf("PROGRAMA PARA CONVERTER PARA METRO, CENTÍMETRO OU MILÍMETRO\n");
+    printf("CONVERSOR DE COMPRIMENTO\n");
     sleep(1); // delay de um segundo
     printf("Exemplos de entradas válidas: 30M | 70.8cm | 10.2MM\n");
     sleep(1);

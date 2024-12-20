@@ -13,7 +13,7 @@ double ton(double x, char y);
 
 int massa(void)
 {
-    printf("PROGRAMA PARA CONVERTER PARA QUILO, GRAMA OU TONELADA\n");
+    printf("CONVERSOR DE MASSA\n");
     sleep(1); // delay de um segundo
     printf("Exemplos de entradas válidas: 30kg | 70.8g | 10.2T\n");
     sleep(1);
@@ -58,7 +58,7 @@ int massa(void)
             exit(EXIT_FAILURE); // encerra o programa
     }
 
-    printf("%.2lf%s equivale a %.2lf%s", 
+    printf("%.2lf%s equivale a %.2lf%s\n", 
             massa_original, 
             u_original == 'k' ? "kg" : (char[2]){u_original, '\0'}, 
             massa_convertida,
